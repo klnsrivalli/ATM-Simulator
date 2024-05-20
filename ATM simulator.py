@@ -11,7 +11,7 @@ class ATM:
             self.balance -= amount
             return f"Withdrawal successful. Remaining balance: Rs. {self.balance}"
         else:
-            return "Insufficient balance or invalid amount"
+            return "Insufficient balance"
     #function to deposit money
     def deposit(self, amount):
         if amount > 0:
